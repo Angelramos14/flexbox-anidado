@@ -1,0 +1,54 @@
+body {
+  background-color: lightblue;
+}
+header {
+  background-color: rgb(83, 112, 122);
+  padding: 1px;
+  border-radius: 10px;
+}
+nav {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+nav img {
+  width: 130px;
+  height: 130px;
+  border-radius: 30px;
+  float: left;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul a:hover {
+  text-decoration: underline;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 30px;
+}
+
+.container {
+  display: flex; /*Activar Flexbox */
+  justify-content: space-evenly; /*Alineacion Horizontal */
+  align-items: center; /* Alineacion Vertical*/
+  flex-direction: row;
+}
+.images {
+  display: flex; /*Activar Flexbox */
+  justify-content: space-around; /*Alineacion Horizontal */
+  align-items: center; /* Alineacion Vertical*/
+}
+.images img {
+  width: 200px; /* Ancho */
+  height: 200px; /* Alto */
+  object-fit: contain; /* Ajustar la Imagen */
+}
+.text {
+  display: flex; /* Activar Flexbox */
+  flex-direction: column; /* El eje principal ahora es el vertical */
+  justify-content: space-around; /* Alineacion verical */
+  align-items: flex-start; /* Activar horizontal */
+}
