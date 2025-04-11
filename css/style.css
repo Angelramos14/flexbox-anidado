@@ -29,26 +29,48 @@ nav a {
   color: rgb(29, 29, 29);
   font-size: 30px;
 }
+p {
+  font-size: 20px;
+  color: rgb(29, 29, 29);
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  color: rgb(83, 112, 122);
+  font-size: 40px;
+}
+.titulo h2 {
+  font-size: 20px;
+}
 
-.container {
-  display: flex; /*Activar Flexbox */
-  justify-content: space-evenly; /*Alineacion Horizontal */
-  align-items: center; /* Alineacion Vertical*/
+.tarjeta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   flex-direction: row;
 }
 .images {
-  display: flex; /*Activar Flexbox */
-  justify-content: space-around; /*Alineacion Horizontal */
-  align-items: center; /* Alineacion Vertical*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .images img {
-  width: 200px; /* Ancho */
-  height: 200px; /* Alto */
-  object-fit: contain; /* Ajustar la Imagen */
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
 }
 .text {
-  display: flex; /* Activar Flexbox */
-  flex-direction: column; /* El eje principal ahora es el vertical */
-  justify-content: space-around; /* Alineacion verical */
-  align-items: flex-start; /* Activar horizontal */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+footer {
+  background-color: rgb(83, 112, 122);
+  padding: 1px;
+  border-radius: 10px;
+}
+footer p {
+  display: flex;
+  justify-content: center;
 }
